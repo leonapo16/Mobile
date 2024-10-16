@@ -294,6 +294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acdc8800a9fc3f4e95431c264634979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
   moveSpeed: 7
   jumpForce: 14
 --- !u!95 &542562513
@@ -10377,7 +10380,7 @@ GameObject:
   - component: {fileID: 2132579250}
   - component: {fileID: 2132579249}
   - component: {fileID: 2132579248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
