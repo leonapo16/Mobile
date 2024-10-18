@@ -5,9 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class ItemCollector : MonoBehaviour
 {
-    [SerializeField] private TextElement pineapplesText;
+    [SerializeField] private Text pineapplesText;
 
     private int pineapples = 0;
     private void OnTriggerEnter2D(Collider2D collision)
