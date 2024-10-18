@@ -1,11 +1,13 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
+
 
 public class ItemCollector : MonoBehaviour
 {
-    [SerializeField] private TextElement
+    [SerializeField] private TextElement pineapplesText;
 
     private int pineapples = 0;
     private void OnTriggerEnter2D(Collider2D collision)
@@ -14,7 +16,7 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             pineapples++;
-            Debug.Log("Pineapples: " + pineapples);
+            pineapplesText.text = "Pineapples: " + pineapples;
 
         }
     }
