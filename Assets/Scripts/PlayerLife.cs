@@ -13,7 +13,7 @@ public class PlayerLife : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -38,6 +38,7 @@ public class PlayerLife : MonoBehaviour
 
     }
 
+// PROVA
 
 
 }
